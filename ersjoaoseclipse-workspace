@@ -1,0 +1,73 @@
+[33mcommit 29971e04504f01c460c53790103f6dcb24a9ecba[m
+Author: João pedro Seraphim <joaopedroseraphim622@gmail.com>
+Date:   Mon Nov 16 23:26:08 2026 -0300
+
+    commit inicial
+
+ .classpath                                   |  15 [32m+[m
+ .project                                     |  17 [32m++[m
+ .settings/org.eclipse.core.resources.prefs   |   2 [32m+[m
+ .settings/org.eclipse.jdt.core.prefs         |  11 [32m+[m
+ Bibliotecas(LIB)/mysql-connector-j-9.5.0.jar | Bin [31m0[m -> [32m2602851[m bytes
+ bin/BancoDeDados                             |   9 [32m+[m
+ bin/CRUD/Create.class                        | Bin [31m0[m -> [32m3233[m bytes
+ bin/CRUD/Delete.class                        | Bin [31m0[m -> [32m2239[m bytes
+ bin/CRUD/Read.class                          | Bin [31m0[m -> [32m3808[m bytes
+ bin/CRUD/Update.class                        | Bin [31m0[m -> [32m4306[m bytes
+ bin/icons/adicionar-ficheiro.png             | Bin [31m0[m -> [32m1435[m bytes
+ bin/icons/adicionar.png                      | Bin [31m0[m -> [32m423[m bytes
+ bin/icons/alterar.png                        | Bin [31m0[m -> [32m987[m bytes
+ bin/icons/atualizar.png                      | Bin [31m0[m -> [32m390[m bytes
+ bin/icons/botao-apagar.png                   | Bin [31m0[m -> [32m781[m bytes
+ bin/icons/imagempadrao.png                   | Bin [31m0[m -> [32m58239[m bytes
+ bin/icons/procurar.png                       | Bin [31m0[m -> [32m364[m bytes
+ bin/icons/seta-pequena-esquerda.png          | Bin [31m0[m -> [32m253[m bytes
+ bin/module-info.class                        | Bin [31m0[m -> [32m198[m bytes
+ bin/utils/Dao.class                          | Bin [31m0[m -> [32m1170[m bytes
+ bin/utils/Imagem.class                       | Bin [31m0[m -> [32m3229[m bytes
+ bin/views/Tabela$1.class                     | Bin [31m0[m -> [32m716[m bytes
+ bin/views/Tabela$2.class                     | Bin [31m0[m -> [32m801[m bytes
+ bin/views/Tabela$3.class                     | Bin [31m0[m -> [32m830[m bytes
+ bin/views/Tabela$4.class                     | Bin [31m0[m -> [32m1459[m bytes
+ bin/views/Tabela.class                       | Bin [31m0[m -> [32m5703[m bytes
+ bin/views/TesteCrud$1.class                  | Bin [31m0[m -> [32m731[m bytes
+ bin/views/TesteCrud$10.class                 | Bin [31m0[m -> [32m725[m bytes
+ bin/views/TesteCrud$11.class                 | Bin [31m0[m -> [32m668[m bytes
+ bin/views/TesteCrud$12.class                 | Bin [31m0[m -> [32m666[m bytes
+ bin/views/TesteCrud$13.class                 | Bin [31m0[m -> [32m666[m bytes
+ bin/views/TesteCrud$2.class                  | Bin [31m0[m -> [32m907[m bytes
+ bin/views/TesteCrud$3.class                  | Bin [31m0[m -> [32m905[m bytes
+ bin/views/TesteCrud$4.class                  | Bin [31m0[m -> [32m663[m bytes
+ bin/views/TesteCrud$5.class                  | Bin [31m0[m -> [32m663[m bytes
+ bin/views/TesteCrud$6.class                  | Bin [31m0[m -> [32m1315[m bytes
+ bin/views/TesteCrud$7.class                  | Bin [31m0[m -> [32m851[m bytes
+ bin/views/TesteCrud$8.class                  | Bin [31m0[m -> [32m873[m bytes
+ bin/views/TesteCrud$9.class                  | Bin [31m0[m -> [32m922[m bytes
+ bin/views/TesteCrud.class                    | Bin [31m0[m -> [32m9184[m bytes
+ bin/views/TesteImagem$1.class                | Bin [31m0[m -> [32m741[m bytes
+ bin/views/TesteImagem$2.class                | Bin [31m0[m -> [32m1386[m bytes
+ bin/views/TesteImagem$3.class                | Bin [31m0[m -> [32m925[m bytes
+ bin/views/TesteImagem.class                  | Bin [31m0[m -> [32m2298[m bytes
+ bin/views/VerDado$1.class                    | Bin [31m0[m -> [32m681[m bytes
+ bin/views/VerDado.class                      | Bin [31m0[m -> [32m4226[m bytes
+ src/BancoDeDados                             |   9 [32m+[m
+ src/CRUD/Create.java                         |  62 [32m+++++[m
+ src/CRUD/Delete.java                         |  52 [32m++++[m
+ src/CRUD/Read.java                           |  88 [32m++++++[m
+ src/CRUD/Update.java                         | 101 [32m+++++++[m
+ src/icons/adicionar-ficheiro.png             | Bin [31m0[m -> [32m1435[m bytes
+ src/icons/adicionar.png                      | Bin [31m0[m -> [32m423[m bytes
+ src/icons/alterar.png                        | Bin [31m0[m -> [32m987[m bytes
+ src/icons/atualizar.png                      | Bin [31m0[m -> [32m390[m bytes
+ src/icons/botao-apagar.png                   | Bin [31m0[m -> [32m781[m bytes
+ src/icons/imagempadrao.png                   | Bin [31m0[m -> [32m58239[m bytes
+ src/icons/procurar.png                       | Bin [31m0[m -> [32m364[m bytes
+ src/icons/seta-pequena-esquerda.png          | Bin [31m0[m -> [32m253[m bytes
+ src/module-info.java                         |  12 [32m+[m
+ src/utils/Dao.java                           |  23 [32m++[m
+ src/utils/Imagem.java                        |  62 [32m+++++[m
+ src/views/Tabela.java                        | 180 [32m++++++++++++[m
+ src/views/TesteCrud.java                     | 397 [32m+++++++++++++++++++++++++++[m
+ src/views/TesteImagem.java                   |  93 [32m+++++++[m
+ src/views/VerDado.java                       | 140 [32m++++++++++[m
+ 66 files changed, 1273 insertions(+)
